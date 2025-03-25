@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Структура для хранения чисел
+
 struct Numbers {
     int x, y, z;
 };
 
-// Функции для ввода значений X, Y, Z
+
 void getX(Numbers& nums) {
 
 }
@@ -19,17 +19,17 @@ void getZ(Numbers& nums) {
 
 }
 
-// Функция для определения количества четных чисел
+
 void CountChet(const Numbers& nums) {
 
 }
 
-// Функция для вычисления суммы четных чисел
+
 void SumChet(const Numbers& nums) {
 
 }
 
-// Функция для отображения меню
+
 void showMenu() {
     cout << "\nMenu:\n";
     cout << "1. Ввести число X\n";
